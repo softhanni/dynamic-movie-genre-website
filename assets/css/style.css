@@ -1,0 +1,15 @@
+.genre-card img {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  border-radius: 5px 5px 0 0;
+}
+
+.genre-card:hover img {
+  transform: scale(1.05);
+}
+
+.genre-card .card-body {
+  background-color: #222;
+  border-radius: 0 0 5px 5px;
+}
